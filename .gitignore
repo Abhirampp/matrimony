@@ -1,0 +1,27 @@
+# .NET
+bin/
+obj/
+*.user
+.vs/
+backend/Matrimony.Api/wwwroot/uploads/*
+!backend/Matrimony.Api/wwwroot/uploads/.gitkeep
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
+
+# Private ID documents
+backend/Matrimony.Api/App_Data/
+
+# Secrets and local settings (keys belong in dotnet user-secrets or environment variables)
+.env
+.env.*
+appsettings.*.local.json
+*.pfx
+
+# Editors / OS / logs
+.idea/
+Thumbs.db
+.DS_Store
+*.log
